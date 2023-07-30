@@ -1,5 +1,5 @@
-import Form from "./components/Form";
-import UserDetails from "./components/UserDetails";
+import Form from "./components/Form/Form";
+import UserDetails from "./components/UserDetails/UserDetails";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {

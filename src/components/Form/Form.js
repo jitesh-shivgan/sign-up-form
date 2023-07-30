@@ -25,10 +25,11 @@ const Form = () => {
     const onSubmitHandler=(event)=>{
             event.preventDefault();
             //Access form data here
+            const uniqueLanguages=[...new Set(selectedLanguages)];
             const formData={
                 name: name,
                 city: selectedCity,
-                languages: selectedLanguages,
+                languages: uniqueLanguages,
             }
             console.log('FORM DATA:', formData);
 
