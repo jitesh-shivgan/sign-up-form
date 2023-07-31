@@ -50,8 +50,8 @@ const Form = () => {
                     <option value="Gurugram">Gurugram</option>
                     <option value="Chennai">Chennai</option>
                 </select>
-                <select id="language" name="language" value={selectedLanguages} onChange={handleLanguageChange} required>
-                    <option value="select">Select Languages</option>
+                <select id="language" name="language" value={selectedLanguages} onChange={handleLanguageChange} multiple required>
+                    <option value="">Select Languages</option>
                     <option value="Hindi">Hindi</option>
                     <option value="Telugu">Telugu</option>
                     <option value="Punjabi">Punjabi</option>
